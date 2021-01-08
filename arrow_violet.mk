@@ -21,8 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common arrow stuff.
+# Inherit some common ArrowOS stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
+DEVICE_MAINTAINER := Aftab Ashrafi
 
 PRODUCT_NAME := arrow_violet
 PRODUCT_DEVICE := violet
