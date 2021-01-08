@@ -25,6 +25,7 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 $(call inherit-product, vendor/arrow/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 DEVICE_MAINTAINER := Aftab Ashrafi
+TARGET_INCLUDE_PIXEL_CHARGER := true
 
 PRODUCT_NAME := arrow_violet
 PRODUCT_DEVICE := violet
